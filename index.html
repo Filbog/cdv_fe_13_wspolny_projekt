@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login agent</title>
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/login.css">
+    <script defer src="./scripts/login.js"></script>
+    <!-- Special Elite Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="login_screen">
+        <video autoplay loop muted src="./assets/backVideo.mp4" class="back_video"></video>
+        <div class="login_container">
+            <img src="./assets/logo1.png" class="logo" alt="">
+            <h1 class="title">JAMES BOND'S APP</h1>
+            <div class="input_container">
+                <label for="login_input">AGENT ID</label>
+                <input type="text" id="login_input">
+            </div>
+            <div class="input_container">
+                <label for="password_input">PASSWORD</label>
+                <input type="password" id="password_input">
+            </div>
+            <button class="btn" id="login_btn">LOG IN</button>
+            <p class="hidden" id="incorrect_data_text">Incorrect data!</p>
+        </div>
+    </section>
+</body>
+
+</html>

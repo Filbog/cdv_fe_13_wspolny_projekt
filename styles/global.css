@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    font-family: "Special Elite";
+    /* color: white; */
+}
+
+
+.logo{
+    height: 200px;
+}
+
+.input_container{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input_container input{
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: solid ghostwhite 1px;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.btn{
+    /* all: unset; */
+    background-color: rgba(15, 176, 9, 0.5);
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login_screen .btn:hover{
+    background-color: rgba(15, 176, 9, 0.7);
+}
+
+.hidden{
+    display: none;
+}

@@ -1,0 +1,25 @@
+body {
+    background-image: url('../assets/background.jpg');
+    color: ghostwhite;
+    background-position: center;
+    background-size: cover;
+}
+
+.single_section{
+    background-color: rgba(0,0,0,0.776);
+    padding: 16px;
+}
+
+#logout{
+    position: absolute;
+    right: 16px;
+    top: 8px;
+}
+
+main{
+    text-align: center;
+}
+
+h1{
+    margin-left: 18px;
+}
